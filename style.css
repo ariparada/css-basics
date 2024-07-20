@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(255, 242, 65);
+    color : rgb(255, 116, 3) ;
+    font-family: "Montserrat";
+
+}
+/* esta clase corresponde a la barra de navegacion */
+.ariana {
+position:fixed;
+height: 100%;
+width: 120px;
+background-color: rgba(184, 255, 184, 0.952);
+font-size: 14px;
+}
+/* este estilo corresponde a los botones de la barra de navegacion */
+.sidebar-item{
+    display: flex;
+    flex-direction:  column;
+    justify-content: center; 
+    align-items: center;
+    color: rgb(0, 255, 76);
+
+    /* este es para cambiar el color */
+}
+.sidebar-item:hover {
+    background-color: rgb(255, 0, 191);
+}
+a:visited {text-decoration : none}
+a {text-decoration: none;}
+main{
+    margin-left: 120px;
+}
+/* este es el titulo de pagina */
+header{
+    text-align: center;
+}
+#head-image {
+    max-width: 80%;
+    height: auto;
+}
